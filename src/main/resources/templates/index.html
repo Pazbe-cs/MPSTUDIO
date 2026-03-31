@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPStudio - Diseño Web Profesional</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <div class="logo">MP<em>Studio</em></div>
+        <div class="nav-links">
+            <a href="#servicios">Servicios</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#clientes">Clientes</a>
+        </div>
+        <div class="nav-right">
+            <button class="btn-ghost">Ver portafolio</button>
+            <a href="https://wa.me/595900000000" target="_blank" class="btn-wa-sm">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-top">
+            <div class="hero-tag">Diseño web · Paraguay</div>
+            <div class="hero-year">Est. 2024</div>
+        </div>
+        <div class="hero-title">Tu negocio,<br><b>online</b> y<br>profesional.</div>
+        <div class="hero-bottom">
+            <p class="hero-sub">Creamos páginas web que generan resultados reales. Entrega en 7 días, soporte incluido, precios accesibles.</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="btn-primary">Quiero mi web</a>
+                <a href="https://wa.me/595900000000" target="_blank" class="btn-wa">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Escribinos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker">
+        <div class="ticker-inner">
+            <span class="ticker-item">Landing Page <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Tienda Online <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Sitio Corporativo <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Entrega en 7 días <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Diseño a medida <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Soporte incluido <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Landing Page <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Tienda Online <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Sitio Corporativo <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Entrega en 7 días <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Diseño a medida <span class="ticker-dot"></span></span>
+            <span class="ticker-item">Soporte incluido <span class="ticker-dot"></span></span>
+        </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats">
+        <div class="stat"><div class="stat-v">50+</div><div class="stat-l">Proyectos entregados</div></div>
+        <div class="stat"><div class="stat-v">7d</div><div class="stat-l">Tiempo de entrega</div></div>
+        <div class="stat"><div class="stat-v">100%</div><div class="stat-l">Satisfacción garantizada</div></div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+        <div class="sec-header">
+            <div>
+                <div class="sec-label">Servicios</div>
+                <div class="sec-title">Lo que hacemos</div>
+            </div>
+            <button class="sec-cta">Ver todos los servicios →</button>
+        </div>
+        <div class="services">
+            <div class="svc"><div class="svc-n">01</div><h3>Landing Page</h3><p>Diseñada para convertir visitantes en clientes desde el primer clic.</p><div class="svc-arrow">→</div></div>
+            <div class="svc"><div class="svc-n">02</div><h3>Tienda Online</h3><p>Integración con Pagopar y Bancard para vender las 24hs.</p><div class="svc-arrow">→</div></div>
+            <div class="svc"><div class="svc-n">03</div><h3>Sitio Corporativo</h3><p>Presencia digital completa y profesional para tu empresa.</p><div class="svc-arrow">→</div></div>
+        </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section" id="proceso">
+        <div class="sec-header">
+            <div>
+                <div class="sec-label">Proceso</div>
+                <div class="sec-title">Cómo trabajamos</div>
+            </div>
+            <a href="https://wa.me/595900000000" target="_blank" class="btn-wa" style="font-size:11px;padding:8px 16px;">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Consultá ahora
+            </a>
+        </div>
+        <div class="proceso-grid">
+            <div class="paso"><div class="paso-n">01</div><h4>Consulta</h4><p>Gratis y sin compromiso. Nos contás tu idea.</p></div>
+            <div class="paso"><div class="paso-n">02</div><h4>Diseño</h4><p>Propuesta visual personalizada para tu negocio.</p></div>
+            <div class="paso"><div class="paso-n">03</div><h4>Desarrollo</h4><p>Programamos con tecnología moderna y robusta.</p></div>
+            <div class="paso"><div class="paso-n">04</div><h4>Entrega</h4><p>Tu web lista en 7 días con soporte incluido.</p></div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="section" id="clientes">
+        <div class="sec-header">
+            <div>
+                <div class="sec-label">Testimonios</div>
+                <div class="sec-title">Lo que dicen nuestros clientes</div>
+            </div>
+        </div>
+        <div class="testimonios">
+            <div class="testi"><div class="testi-stars">★★★★★</div><div class="testi-txt">"Mi tienda online estuvo lista en tiempo récord. Las ventas aumentaron desde el primer mes."</div><div class="testi-line"></div><div class="testi-name">Carlos Rodríguez</div><div class="testi-role">Tienda local · Asunción</div></div>
+            <div class="testi"><div class="testi-stars">★★★★★</div><div class="testi-txt">"Profesionales y puntuales. Mi consultora ahora tiene presencia digital y los clientes llegan solos."</div><div class="testi-line"></div><div class="testi-name">María González</div><div class="testi-role">Consultora · Luque</div></div>
+            <div class="testi"><div class="testi-stars">★★★★★</div><div class="testi-txt">"El mejor servicio de diseño web en Paraguay. Rápido, accesible y con resultados reales."</div><div class="testi-line"></div><div class="testi-name">Diego Martínez</div><div class="testi-role">Emprendedor · Encarnación</div></div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-section" id="contacto">
+        <div class="cta-eyebrow">Empezá hoy</div>
+        <div class="cta-title">¿Listo para estar<br><b>online?</b></div>
+        <p class="cta-sub">Tu página web lista en 7 días. Sin vueltas, sin complicaciones.</p>
+        <div class="cta-btns">
+            <a href="#contacto" class="btn-primary" style="font-size:13px;padding:14px 32px;">Quiero mi web ahora</a>
+            <a href="https://wa.me/595900000000" target="_blank" class="btn-wa" style="font-size:13px;padding:14px 24px;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Escribinos por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <span class="footer-l">© 2026 MPStudio — Todos los derechos reservados</span>
+        <span class="footer-r">Asunción, Paraguay</span>
+    </footer>
+
+    <script th:src="@{/js/main.js}"></script>
+</body>
+</html>
